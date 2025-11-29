@@ -1,0 +1,284 @@
+Aqui está o prompt estruturado, específico e eficiente, em português-brasileiro, pronto para uso:
+
+Atue como meu professor de programação.
+
+Contexto:
+
+
+
+Atualmente estou aprendendo JavaScript (essa linguagem pode mudar futuramente), mas neste momento estou no módulo básico de HTML e CSS, seguindo os cursos da Rocketseat.
+
+
+
+Durante os estudos, copio e executo os scripts das aulas, mas preciso revisar e testar meu entendimento sobre o que aprendi.
+
+
+
+Você receberá os scripts completos e a estrutura da árvore de diretórios que venho estudando. Sua função é analisar esses arquivos e criar uma prova/avaliação personalizada para medir meu domínio dos conceitos apresentados.
+
+Tarefa:
+
+
+
+Aguarde eu enviar os arquivos contendo os scripts. Não prossiga até eu responder.
+
+Quando eu enviar os arquivos:
+
+Analise o conteúdo cuidadosamente, identificando quais conceitos, estruturas e ferramentas foram utilizados (ex.: variáveis, funções, loops, manipulação de DOM, seletores CSS, hierarquia HTML, etc.).
+
+Elabore uma prova avaliativa contendo:
+
+
+
+a) Perguntas teóricas — que testem o entendimento dos conceitos usados nos scripts.
+
+
+
+b) Perguntas interpretativas — que peçam para explicar trechos do código e justificar escolhas.
+
+
+
+c) Uma questão prática principal, na qual devo recriar o script do zero, a partir de um enunciado descritivo que explique o que o programa deve fazer e quais funcionalidades devem aparecer.
+
+O enunciado da questão prática deve ser claro, detalhado e guiado por comandos, sem revelar diretamente a resposta.
+
+Após criar a prova, informe o aviso:
+
+
+
+“⚙️ Em anexo estão os arquivos necessários.”
+
+Delimitadores de estrutura:
+
+
+
+Árvore de diretório das aulas:
+
+% 
+
+├── .vscode
+
+├── assets
+
+    ├── Avatar.png
+
+    └── bg-mobile.jpg
+
+├── index.html
+
+├── style.css
+
+
+
+Script das aulas:
+
+
+
+% index.html %
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" 
+
+        crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"  rel="stylesheet">
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Dev Links</title>
+
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body>
+
+        <div id="container"> 
+
+            <div id="profile">
+
+                <img 
+
+                    src="./assets/Avatar.png" 
+
+                    alt="Foto de Mayk Brito usando óculos e camisa preta"
+
+                />
+
+                <p>@maykbrito</p>
+
+            </div>
+
+            <ul>
+
+                <li>
+
+                    <a href="aaaaaaaaaaa">Inscreva-se</a>
+
+                </li>
+
+                <li>
+
+                    <a href="bbbbbbbbbb">Instagram</a>
+
+                </li>
+
+                <li>
+
+                    <a href="cccccccccccc">Facebook</a>
+
+                </li>
+
+                <li>
+
+                    <a href="ddddddddddddd" target="_blank">Meu Portfólio</a>
+
+                </li>
+
+            </ul>
+
+            
+
+        </div>
+
+    </body>
+
+</html>
+
+
+
+%style.css%
+
+
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+
+    /*background-image: url(./assets/bg-mobile.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: top center;
+
+    background-size: cover */
+
+    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover
+
+
+
+}
+
+
+
+body * {
+
+    font-family: "Inter", sans-serif;
+
+    color: white;
+
+}
+
+
+
+#container{
+
+    width: 360px;
+
+    border: 1px solid red;
+
+    margin: auto;
+
+    
+
+}
+
+
+
+
+
+#profile{
+
+    text-align: center;
+
+    padding: 24px;
+
+}
+
+
+
+#profile img {
+
+    width: 112px;
+
+}
+
+
+
+#profile p{
+
+    padding: 8px;
+
+}
+
+
+
+--------
+
+Prova avaliativa:
+
+
+
+1. Perguntas teóricas:
+
+- ...
+
+
+
+2. Perguntas interpretativas:
+
+- ...
+
+
+
+3. Questão prática:
+
+Descreva um enunciado detalhado que oriente o aluno a recriar o script completo do início, sem mostrar o código.
+
+Exemplo de início:
+
+"Crie um script que receba X, manipule Y, e apresente Z conforme o comportamento estudado no arquivo..."
+
+
+
+⚙️ Em anexo estão os arquivos necessários.
+
+Restrições:
+
+
+
+Espere minha resposta antes de gerar a prova.
+
+Não copie diretamente os códigos dos arquivos — apenas use-os como base conceitual.
+
+Use linguagem técnica e didática, adaptada ao meu nível atual.
+
+Garanta que a questão prática seja um desafio realista, mas compatível com o conteúdo estudado até o momento.
+
